@@ -1,5 +1,4 @@
 #/#! /urs/bin/env python
-import random
 
 if __name__ == '__main__':
     firstWord = str(raw_input('Give me a first word: '))
