@@ -2,9 +2,9 @@
 
 def grid(w, h):
     for i in range(h):
-        print('---' * w)
-        print('|  ' * w + '|')
-    print('---' * w )
+        print(' --- ' * w)
+        print('|    ' * w + '|' )
+    print(' --- ' * w )
 
 
 if __name__ == '__main__':
