@@ -8,7 +8,7 @@ if __name__ == '__main__':
     with open(filePath, 'r') as open_file:
         line = open_file.readline()
         while line:
-            namesCount+=1
+            namesCount += 1
             line = open_file.readline()
 
-    print('There are %s names in file.txt'%namesCount)
+    print('There are %s names in file.txt' % namesCount)
