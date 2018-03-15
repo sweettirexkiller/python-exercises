@@ -26,7 +26,11 @@ def getWord(int, filePath):
 if __name__ == '__main__':
     cwd = os.getcwd()
     filePath = cwd + '/30-pick-word/sowpods.txt'
-    len = countWords(filePath)
-    random = random.randint(0,len+1)
-    word = getWord(random, filePath)
-    print(word, end= '')
+    with open(filePath, 'r') as file:
+        lines = file.readlines()
+        word = random.choice(lines).strip()
+        print(word)
+    # len = countWords(filePath)
+    # random = random.randint(0,len+1)
+    # word = getWord(random, filePath)
+    # print(word, end= '')
