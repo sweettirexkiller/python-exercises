@@ -36,4 +36,4 @@ if __name__ == "__main__":
 
     count = Counter(months)
     for key in count.keys():
-        print('In {} where {} guys'.format(yearMonths[key], count[key]))
+        print('In {} were {} guys'.format(yearMonths[key], count[key]))
