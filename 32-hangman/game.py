@@ -75,7 +75,7 @@ class HangMan:
 
     def checkIfWon(self):
         if self.guessCount == 6:
-            sys.exit('You lose!')
+            sys.exit('You lose! The right word was: ' + self.word)
         countCorrect = 0
         for index, value in enumerate(self.state):
             if value == self.word[index]:
