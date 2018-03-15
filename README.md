@@ -4,3 +4,4 @@ This is my first time I write in python. Time to learn a new language! Most of t
 
 ![screenshot](screen.png)
 ![screenchot](screen1.png)
+![gif](https://media.giphy.com/media/fQGBeBnk1DudrRltBe/giphy.gif)
